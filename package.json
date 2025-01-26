@@ -1,8 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "react-typescript-vite-template",
   "private": true,
   "version": "1.0.0",
-  "description": "Jason's portfolio",
+  "description": "Template for React-TypeScript-Vite web app with eslint and prettier",
   "author": "Jason Qiu",
   "license": "MIT",
   "type": "module",
