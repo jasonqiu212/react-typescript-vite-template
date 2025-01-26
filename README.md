@@ -25,7 +25,7 @@ Congratulations! You have successfully initialized the template. 🎉
 
 1. Scaffold a Vite project.
 
-```bash
+```
 npm create vite@latest
 ```
 
@@ -36,14 +36,14 @@ npm create vite@latest
 
 3. Install the packages in the created project directory.
 
-```bash
+```
 cd new-project
 npm install
 ```
 
 4. Install [Prettier](https://prettier.io/).
 
-```bash
+```
 npm install --save-dev prettier
 ```
 
@@ -53,7 +53,7 @@ But if both ESLint and Prettier can format code, how do we handle conflicting ru
 
 5. Install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) to turn off ESLint rules that may conflict with Prettier.
 
-```bash
+```
 npm install --save-dev eslint-config-prettier
 ```
 
@@ -61,7 +61,7 @@ npm install --save-dev eslint-config-prettier
 
 7. Install [@trivago/prettier-plugin-sort-imports](https://github.com/trivago/prettier-plugin-sort-imports) to sort imports.
 
-```bash
+```
 npm install --save-dev @trivago/prettier-plugin-sort-imports
 ```
 
