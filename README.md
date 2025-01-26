@@ -78,3 +78,15 @@ npm install --save-dev @trivago/prettier-plugin-sort-imports
   "plugins": ["@trivago/prettier-plugin-sort-imports"]
 }
 ```
+
+9. Add scripts in `package.json` to format the project using ESLint and Prettier using 1 command: `npm run format`
+
+```json
+"scripts": {
+  // ...
+  "lint:fix": "npm run lint -- --fix",
+  "prettier": "prettier . --check",
+  "prettier:fix": "npm run prettier -- --write",
+  "format": "npm run prettier:fix && npm run lint:fix"
+},
+```
